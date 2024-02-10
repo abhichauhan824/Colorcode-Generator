@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    gap: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 20vh;
+    width: 35%;
+    border-radius: 25px;
+    background-color: #fff;
+
+}
+
+#demo{
+    width: auto;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.code{
+    border-radius: 4px;
+    padding: 5px;
+}
